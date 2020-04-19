@@ -1,0 +1,25 @@
+<h1>this is cart</h1>
+
+<p>u r logged in</p>
+<h1>THIS IS THE SHOW TEMPLATE</h1>
+<% var carts %>
+
+<div class="row text-center" style="display:flex; flex-wrap: wrap; size:50% ;">
+    <% carts.forEach(function(cart){ %>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="<%= cart.image %>" >
+                   <div class="caption" style="text-align: center;">
+                    <h4><%= cart.name %></h4>
+                </div>
+                </div>
+                
+            
+        </div>
+        <% }) %>
+</div>
+    
+    
+
+
+
