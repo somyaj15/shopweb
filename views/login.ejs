@@ -1,0 +1,40 @@
+<%- include('partials/header') -%>
+<style>
+    .jumbotron{
+       margin-top: 20px;
+       background-image: url("https://image.freepik.com/free-photo/origami-exotic-paper-plants-pink-background_23-2148301105.jpg");
+       background-size: cover;
+    }
+     </style>
+<body style="background-image: url(https://trk.localvox.com/sites/default/files/styles/1200x628/public/content_images/clothes_on_the_rack_22848360.jpg?itok=QWJShDO1); background-repeat: no-repeat; background-size:cover ;">
+
+    <div class="container">
+        <header class="jumbotron">
+            <div class="container">
+            <h1 style="text-align : "center;" >LOGIN PAGE</h1>
+            <p>SHOP TO YOUR FULLEST!!</p>
+            </div>
+        </header>
+        <br>
+        
+
+
+
+<div style="width:40%; margin:0 auto;">
+<form action="/login" method="POST">
+    <div class="form-group">
+        <input class="form-control" type="text" name="username" placeholder="username">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="password" name="password" placeholder="password">
+</div>
+
+    <button class="btn btn-lg btn-default btn-block">SUBMIT</button>
+</form>
+</div>
+</div>
+</div>
+
+
+    
+<%- include('partials/footer') -%>
